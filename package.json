@@ -6,6 +6,7 @@
   "author": "wommy <tom@technomad.media>",
   "license": "MIT",
   "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.9",
     "postcss-cli": "^8.3.1",
@@ -14,6 +15,9 @@
     "tailwindcss": "^2.1.1"
   },
   "scripts": {
-    "css": "postcss post.css -o static/style.css"
+    "css": "postcss post.css -o static/style.css",
+    "clean": "rm -rf _site",
+    "build": "yarn run clean; yarn run css; yarn eleventy",
+    "dev": "yarn run clean; yarn run css -w & yarn eleventy --serve"
   }
 }
