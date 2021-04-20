@@ -1,6 +1,7 @@
 module.exports = {
-  purge: [ './11ty/**/*.html', ],
-  theme: {},
-  variants: {},
-  plugins: [],
+	mode: 'jit',
+	purge: [ './11ty/**/*.html', ],
+	theme: {},
+	variants: {},
+	plugins: [],
 }
