@@ -1,6 +1,6 @@
 {
   "name": "tms-update",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a technomad stack update",
   "repository": "git@github.com:wommy/tms-update.git",
   "author": "wommy <tom@technomad.media>",
