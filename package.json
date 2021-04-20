@@ -1,8 +1,8 @@
 {
-  "name": "tmst_update",
-  "version": "0.0.0",
-  "description": "a technomad stack template update",
-  "repository": "git@github.com:wommy/tmst_update.git",
+  "name": "tms-update",
+  "version": "0.0.1",
+  "description": "a technomad stack update",
+  "repository": "git@github.com:wommy/tms-update.git",
   "author": "wommy <tom@technomad.media>",
   "license": "MIT",
   "devDependencies": {
